@@ -1,0 +1,84 @@
+.-ui-inputText {
+	zoom: 1;
+	display: block;
+	position: relative;
+}
+
+.-ui-inputText-top {
+	padding-left: 5px;
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	background-image: url('media/bg-rect-v.png');
+}
+
+.-ui-inputText-top div {
+	padding-right: 5px;
+	background-repeat: no-repeat;
+	background-position: right -10px;
+	background-image: url('media/bg-rect-v.png');
+}
+
+.-ui-inputText-top div div {
+	height: 5px;
+	background-repeat: repeat-x;
+	background-position: right -20px;
+}
+
+.-ui-inputText-middle {
+	padding-left: 5px;
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-image: url('media/bg-rect-h.png');
+}
+
+.-ui-inputText-middle div {
+	padding-right: 5px;
+	background-repeat: repeat-y;
+	background-position: right top;
+	background-image: url('media/bg-rect-h.png');
+}
+
+.-ui-inputText-middle div div {
+	padding: 0px;
+	background-image: none;
+	background-color: #F5F5F5;
+}
+
+.-ui-inputText-field {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	outline: none;
+	display: block;
+	border-style: none;
+	position: relative;
+	background-color: transparent;
+}
+
+.-ui-inputText
+.-ui-inputField-placeHolder {
+	top: 5px;
+	left: 6px;
+	//top: 6px;
+	position: absolute;
+}
+
+.-ui-inputText-bottom {
+	padding-left: 5px;
+	background-repeat: no-repeat;
+	background-position: left -5px;
+	background-image: url('media/bg-rect-v.png');
+}
+
+.-ui-inputText-bottom div {
+	padding-right: 5px;
+	background-repeat: no-repeat;
+	background-position: right -15px;
+	background-image: url('media/bg-rect-v.png');
+}
+
+.-ui-inputText-bottom div div {
+	height: 5px;
+	background-repeat: repeat-x;
+	background-position: right -25px;
+}

@@ -1,0 +1,134 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: #292929;
+	overflow: hidden;
+	font-family: 'Lucida Grande', Tahoma;
+}
+
+.toolbar {
+	left: 0px;
+	right: 0px;
+	font-size: 11px;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	background-color: #A8A8A8;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image: url('../media/toolbar_bg.png');
+	border-bottom: 1px solid #686868;
+}
+
+.toolbar-item {
+	list-style-type: none;
+	vertical-align: middle;
+	display: inline-block;
+	//display: inline;
+	//zoom: 1;
+	height: 32px;
+	line-height: 82px;
+	cursor: pointer;
+	margin-right: 15px;
+	text-align: center;
+	padding-bottom: 14px;
+	text-shadow: 1px 1px 1px #EDEDED;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.toolbar-item-new {
+	background-image: url('../media/new.png');
+}
+
+.toolbar-item-open {
+	background-image: url('../media/folder-open.png');
+}
+
+.toolbar-item-save {
+	background-image: url('../media/save.png');
+}
+
+.toolbar-item-export {
+	background-image: url('../media/export.png');
+}
+
+.toolbar-item-grid {
+	background-image: url('../media/grid.png');
+}
+
+.toolbar-item:active {
+	-webkit-filter: brightness(-20%);
+}
+
+.workspace {
+	top: 59px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+}
+
+.canvas {
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 271px;
+	position: absolute;
+	background-color: #CDCDCD;
+	border-right: 1px solid #686868;
+}
+
+.sidebar {
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 271px;
+	overflow: auto;
+	position: absolute;
+	background-color: white;
+}
+
+.palette {
+	text-align: left;
+	padding-top: 3px;
+	padding-left: 3px;
+}
+
+.palette-tile {
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	position: relative;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	vertical-align: top;
+	display: inline-block;
+	background-repeat: no-repeat;
+	border-radius: 2px;
+}
+
+.palette-tile div {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.8;
+	display: none;
+	position: absolute;
+	border-radius: 2px;
+	border: 4px solid #1BCAFF;
+}
+
+.palette-tile:hover div,
+.palette-tile-active div {
+	display: block;
+}
+
+
+

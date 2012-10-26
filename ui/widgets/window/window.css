@@ -1,0 +1,30 @@
+.-ui-window {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+
+.-ui-window-outer {
+	border-radius: 6px;
+	border: 1px solid #474747;
+	box-shadow: 0px 0px 10px gray;
+}
+
+.-ui-window-inner {
+	overflow: hidden;
+	border-radius: 6px;
+	border: 1px solid #FAFAFA;
+	background-color: #D8D8D8;
+}
+
+.-ui-window-title {
+	padding: 4px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	background-color: #494949;
+}
+
+.-ui-window-content {
+	padding: 6px;
+}

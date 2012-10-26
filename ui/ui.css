@@ -1,0 +1,9 @@
+@import url('widgets/window/window.css');
+@import url('widgets/button/button.css');
+@import url('widgets/textArea/textArea.css');
+@import url('widgets/inputText/inputText.css');
+
+.-ui-label {
+	font-size: 11px;
+	margin-bottom: 2px;
+}
